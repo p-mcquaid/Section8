@@ -1,0 +1,70 @@
+#include <iostream>
+
+using namespace std;
+
+//Increment operator ++
+//Decrement operator --
+
+//Postfix num++
+//Prefix ++num
+
+int main()
+{
+
+    int counter{10}, result{0};
+
+    //Example 1 - simple increment
+    /*  cout << "Counter: " << counter << endl;
+
+    counter = counter + 1;
+    cout << "Counter: " << counter << endl;
+
+    counter++;
+    cout << "Counter: " << counter << endl;
+    
+    ++counter;
+    cout << "Counter: " << counter << endl;
+    cout << "================" << endl; */
+
+    //Example 2 - preincrement
+    /*     counter=10;
+    result=0;
+
+    cout << "Counter: " << counter << endl;
+
+    result = ++counter;
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl;
+     */
+
+    //Example 3 - postincrement
+    /* counter = 10;
+    result = 0;
+
+    cout << "Counter: " << counter << endl;
+    result = counter++;
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl;
+ */
+
+    //Example 4
+    /* counter = 10;
+    result = 0;
+
+    cout << "Counter: " << counter << endl;
+    result = ++counter + 10;
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl; */
+
+    //Example 5
+    counter = 10;
+    result = 0;
+
+    cout << "Counter: " << counter << endl;
+    result = counter++ +10;
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl;
+
+
+    return 0;
+}
